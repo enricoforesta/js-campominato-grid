@@ -1,0 +1,43 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMUNI */
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+header,footer{
+    padding: 20px;
+}
+
+main{
+    flex-grow: 1;
+    background-color: aquamarine;
+}
+
+img{
+    display: block;
+}
+
+
+/* HEADER */
+.titolo{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.bottone{
+    margin-left: auto;
+    padding: 0 30px;
+    font-weight: 900;
+}
+
+/* FOOTER */
