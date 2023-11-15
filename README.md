@@ -22,7 +22,7 @@ Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro ed 
 
 6. Richiamiamo la funzione in un ciclo "for" in modo da creare 100 caselle.
 
-7. Dopo inseriamo un evento click sulla cella, in modo che cambi colore e il suo contenuto viene stampato in console.
+7. Creiamo una funzione con un evento click sulla cella, in modo che cambi colore e il suo contenuto viene stampato in console.
 
-8. Ora facciamo in modo che quando l utente apre il programma la griglia non c'e', e per farla comparire premiamo il bottone play.
+8. Creiamo una funzione con un evento click sul bottone, per far iniziare il gioco, e se premiamo ancora sul bottone, il colore delle celle, si resetta.
 

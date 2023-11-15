@@ -1,43 +1,72 @@
 /* RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* COMUNI */
-body{
+body {
     height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
 }
 
-header,footer{
+header,
+footer {
     padding: 20px;
 }
 
-main{
+main {
     flex-grow: 1;
     background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-img{
+img {
     display: block;
 }
 
 
 /* HEADER */
-.titolo{
+.title {
     display: flex;
     align-items: center;
     gap: 10px
 }
 
-.bottone{
+.button {
     margin-left: auto;
     padding: 0 30px;
     font-weight: 900;
 }
 
-/* FOOTER */
+/* MAIN */
+main .container-main.d-none{
+    display: none;
+}
+
+.container-main {
+    padding: 50px 0;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.cell {
+    border: 1px solid black;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg{
+    background-color: skyblue;
+}
