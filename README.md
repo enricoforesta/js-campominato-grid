@@ -26,3 +26,28 @@ Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro ed 
 
 8. Creiamo una funzione con un evento click sul bottone, per far iniziare il gioco, e se premiamo ancora sul bottone, il colore delle celle, si resetta.
 
+# Bonus
+Aggiungere una select accanto al bottone di generazione, che fornisca una scelta tra tre diversi livelli di difficoltà:
+
+- con difficoltà 1 => 100 caselle, con un numero compreso tra 1 e 100, divise in 10 caselle per 10 righe;
+
+- con difficoltà 2 => 81 caselle, con un numero compreso tra 1 e 81, divise in 9 caselle per 9 righe;
+
+- con difficoltà 3 => 49 caselle, con un numero compreso tra 1 e 49, divise in 7 caselle per 7 righe;
+
+# Logica Bonus
+
+1. Aggiungo un select nell Html, con CSS lo stilizziamo.
+
+2. Nel CSS le classi di dimensioni, le suddivido in 3 dimensioni. 
+
+3. Nel JS con le variabili, prendo il valore delle option dell Html,  
+
+4. Al ciclo, Aggiungo delle condizioni 
+    --Se
+        Il valore è "100", nel ciclo i <= 100, aggiungiamo la classe " cell-hard "
+    --Altrimenti Se
+        Il valore è "81", nel ciclo i <= 81. aggiungiamo la classe " cell-normal"
+    --Altrimenti Se
+        Il valore è "49", nel ciclo i <= 49. aggiungiamo la classe " cell-easy"
+
