@@ -20,11 +20,13 @@ Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro ed 
 
 5. Creiamo una funzione che crea una elemento con classe e contenuto.
 
-6. Richiamiamo la funzione in un ciclo "for" in modo da creare 100 caselle.
+6. Creiamo una funzione per determinare il livello e le caselle da creare
 
-7. Creiamo una funzione con un evento click sulla cella, in modo che cambi colore e il suo contenuto viene stampato in console.
+7. Creiamo una funzione che richiama la funzione dei livelli in un ciclo "for" in modo da creare le caselle.
 
-8. Creiamo una funzione con un evento click sul bottone, per far iniziare il gioco, e se premiamo ancora sul bottone, il colore delle celle, si resetta.
+8. Creiamo una funzione di Reset.
+
+9. Creiamo una funzione principale con le altre funzioni, alla funzione principale, colleghiamo un evento click, in modo che quando clicchiamo inizia il gioco.
 
 # Bonus
 Aggiungere una select accanto al bottone di generazione, che fornisca una scelta tra tre diversi livelli di difficoltà:
@@ -41,13 +43,5 @@ Aggiungere una select accanto al bottone di generazione, che fornisca una scelta
 
 2. Nel CSS le classi di dimensioni, le suddivido in 3 dimensioni. 
 
-3. Nel JS con le variabili, prendo il valore delle option dell Html,  
-
-4. Al ciclo, Aggiungo delle condizioni 
-    --Se
-        Il valore è "100", nel ciclo i <= 100, aggiungiamo la classe " cell-hard "
-    --Altrimenti Se
-        Il valore è "81", nel ciclo i <= 81. aggiungiamo la classe " cell-normal"
-    --Altrimenti Se
-        Il valore è "49", nel ciclo i <= 49. aggiungiamo la classe " cell-easy"
+3. Usiamo lo swicht in modo da dare un numero per la creazioni delle celle, e usiamo il value del select, per vedere quale caso è vero.
 
